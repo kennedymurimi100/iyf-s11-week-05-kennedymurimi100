@@ -43,4 +43,4 @@ Through this project, I learned:
 
 ## Live Demo
 
-(Add your GitHub Pages link here after deployment)
+(https://kennedymurimi100.github.io/iyf-s11-week-05-kennedymurimi100/)
