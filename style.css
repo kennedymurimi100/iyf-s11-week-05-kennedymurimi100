@@ -1,0 +1,12 @@
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-btn {
+  display: none;
+}
+
+li:hover .delete-btn {
+  display: inline-block;
+}

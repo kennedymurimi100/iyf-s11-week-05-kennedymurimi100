@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Practice</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+
+        .container {
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="main-header">
+        <h1>DOM Practice</h1>
+
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <article>
+            <h2 class="title">Article Title</h2>
+
+            <p class="content">This is the first paragraph.</p>
+
+            <p class="content">This is the second paragraph.</p>
+        </article>
+
+        <section>
+            <h2>Form Section</h2>
+
+            <form id="contact-form">
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Name"
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                >
+
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026</p>
+    </footer>
+
+    <div id="grandparent" style="padding:30px; background:#d1d5db; margin-top:20px;">
+        Grandparent
+
+        <div id="parent" style="padding:30px; background:#93c5fd; margin-top:10px;">
+            Parent
+
+            <div id="child" style="padding:30px; background:#86efac; margin-top:10px;">
+                Child
+            </div>
+
+        </div>
+
+    </div>
+
+    <section id="todo-app">
+        <h2>My To-Do List</h2>
+
+        <form id="todo-form">
+            <input
+                type="text"
+                id="todo-input"
+                placeholder="Enter a task..."
+                required
+            />
+
+            <button type="submit">Add Task</button>
+            <button id="deleteAllBtn" type="button">Delete All</button>
+        </form>
+
+        <div class="filters">
+            <button id="allBtn" type="button">All</button>
+            <button id="activeBtn" type="button">Active</button>
+            <button id="completedBtn" type="button">Completed</button>
+        </div>
+
+        <p id="itemsLeft">0 items left</p>
+        <button id="clearCompletedBtn" type="button">Clear Completed</button>
+        <ul id="todo-list"></ul>
+    </section>
+
+    <script src="dom.js"></script>
+
+</body>
+</html>
