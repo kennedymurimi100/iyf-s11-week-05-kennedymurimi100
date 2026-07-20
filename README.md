@@ -4,10 +4,10 @@
 
 ## Project Description
 
-This project is a simple To-Do List application built using HTML, CSS, and JavaScript.  
+As you know the  project is a simple To-Do List application and currently built on using HTML, CSS, and JavaScript.  
 It was created to practice JavaScript fundamentals, DOM manipulation, arrays, functions, and event handling.
 
-The application allows users to create tasks, view their tasks dynamically, and remove tasks when they are completed.
+The method allows users to create tasks,By viewing their tasks dynamically, and remove tasks when they are finished after.
 
 ## Features
 
@@ -29,9 +29,8 @@ The application allows users to create tasks, view their tasks dynamically, and 
 
 Through this project, I learned:
 
-- How to manipulate HTML elements using JavaScript
-- How to handle button click events
-- How to work with arrays and functions
+- Button click events i now know how to handle them
+- With arrays and functions i worked on them by learning
 - How to dynamically create and remove elements
 - How JavaScript interacts with the DOM
 
